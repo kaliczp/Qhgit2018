@@ -12,3 +12,5 @@ plot(Qh[,"Q"],Qh[,"h"])
 
 ## Creation of data.frame
 Qh.df <- data.frame(h = h, Q = Q)
+## Plot Q & h data
+plot(Qh.df, xlab="h [cm]", ylab="Q [l/s]")
