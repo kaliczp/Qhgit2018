@@ -9,3 +9,6 @@ plot(Qh[,1],Qh[,2])
 colnames(Qh)
 plot(Qh[,"Q"],Qh[,"h"])
 ## Try to plot Q<10 [l/s]
+
+## Creation of data.frame
+Qh.df <- data.frame(h = h, Q = Q)
